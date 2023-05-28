@@ -1,0 +1,362 @@
+/* common code start */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+body{
+	margin: 0px;
+}
+.container{
+	width: 90%;
+	height: 100%;
+	margin: 0px auto;
+}
+.d-flex{
+	display: flex;
+}
+a{
+	text-decoration: none;
+	display: inline-block;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+}
+ul li{
+	list-style: none;
+}
+span{
+	display: inline-block;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+.my-20{
+	margin: 20px 0px;
+}
+h2{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #212529;
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 40px;
+	border-bottom: 1px solid #c2c2c2;
+}
+h2 span{
+	display: inline-block;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #212529;
+}
+/* common code end */
+
+/* nav section code start */
+nav{
+	width: 100%;
+	height: 60px;
+}
+.navbar{
+	align-items: center;
+}
+.navbar-brand{
+	flex: 1 1 10%;
+}
+.navbar-brand a{
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	font-weight: 700;
+	color: rgba(0,0,0,.9);
+}
+.navbar-nav{
+	flex: 1 1 70%;
+}
+.navbar-nav ul{
+	justify-content: space-evenly;
+}
+.navbar-nav ul li{
+	
+}
+.navbar-nav ul li a{
+	font-size: 16px;
+	font-weight: 400;
+	color: rgba(0,0,0,.7);
+	padding: 10px 20px;
+	transition: .5s linear;
+}
+.navbar-nav ul li a:hover{
+	color: rgba(0,0,0,1);
+}
+.navbar-nav ul li a span{
+	color: #fff;
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: lowercase;
+	background: #7832E2;
+	padding: 1px 4px;
+	border-radius: 5px;
+}
+.navbar-btn{
+	flex: 1 1 20%;
+	text-align: right;
+}
+.navbar-btn a{
+	color: #03A87C;
+	padding: 6px 30px;
+	border-radius: 4px;
+	background: transparent;
+	border: 1px solid #03A87C;
+	transition: .5s linear;
+}
+.navbar-btn a:hover{
+	color: #fff;
+	background: #03A87C;
+}
+/* nav section code end */
+
+/* header section start */
+header{
+	margin-bottom: 40px;
+}
+.header-area{
+	
+}
+.header-content{
+	flex: 1 1 100%;
+	padding: 80px 30px;
+	background: #E8F3EC;
+	box-sizing: border-box;
+}
+.header-content h1{
+	font-family: 'Playfair Display', serif;
+	color: #212529;
+	font-size: 40px;
+	font-weight: 700;
+	margin: 0px;
+}
+.header-content p{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #212529;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 20px 0px;
+}
+.header-content a{
+	color: #fff;
+	padding: 10px 30px;
+	border-radius: 4px;
+	background: #101214;
+	transition: .5s linear;
+}
+.header-poster{
+	flex: 1 1 100%;
+}
+.header-poster img{
+	height: 100%;
+}
+/* header section end */
+
+/* about section start */
+.about-us-section{
+	margin-bottom: 40px;
+}
+.about-us{
+	
+}
+.about-content{
+	flex: 1 1 100%;
+	padding-right: 30px;
+	box-sizing: border-box;
+}
+.about-content img{
+	max-height: 120px;
+	width: 100%;
+	object-fit: cover;
+	object-position: 0% 10%;
+}
+.about-content a{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #212529;
+	font-size: 24px;
+	font-weight: 700;
+	margin: 20px 0px 0px 0px;
+	transition: .5s linear;
+}
+.about-content a:hover{
+	color: #03a87c;
+}
+.about-content p{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #212529;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	margin: 20px 0px;
+}
+.about-content small{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #6c757d;
+	font-size: 14px;
+	font-weight: 400;
+	display: block;
+	line-height: 1.5;
+}
+.about-blog{
+	flex: 1 1 100%;
+}
+.blog-container .blog-container-poster{
+	flex: 1 1 100%;
+}
+.blog-container .blog-container-content{
+	flex: 1 1 300%;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+.blog-container .blog-container-content a{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #212529;
+	font-size: 16px;
+	font-weight: 700;
+	margin: 0px;
+	transition: .5s linear;
+}
+.blog-container .blog-container-content a:hover{
+	color: #03a87c;
+}
+.blog-container .blog-container-content p{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #212529;
+	font-size: 14px;
+	font-weight: 400;
+	margin: 10px 0px;
+}
+.blog-container .blog-container-content small{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #6c757d;
+	font-size: 13px;
+	font-weight: 400;
+}
+/* about section end */
+
+/* blog section start */
+.blog-section{
+	
+}
+.blog{
+	
+}
+.all-stories-blog{
+	flex: 1 1 300%;
+	padding-right: 40px;
+	box-sizing: border-box;
+}
+.stories-blog-container{
+	
+}
+.stories-blog-content{
+	flex: 1 1 300%;
+}
+.stories-blog-content a{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #212529;
+	font-size: 24px;
+	font-weight: 700;
+	transition: .5s linear;
+}
+.stories-blog-content a:hover{
+	color: #03a87c;
+	text-decoration: underline;
+}
+.stories-blog-content p{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #212529;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	margin: 5px 0px 12px 0px;
+}
+.stories-blog-content small{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #6c757d;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.5;
+	display: block;
+}
+.stories-blog-poster{
+	flex: 1 1 100%;
+}
+
+.popular-blog{
+	flex: 1 1 200%;
+}
+.popular-blog ul{
+	counter-reset: blog-count;
+}
+.popular-blog ul li{
+	margin-bottom: 15px;
+}
+.popular-blog ul li::before{
+	counter-increment: blog-count;
+	content: '0'counter(blog-count);
+	font-size: 50px;
+	font-weight: 700;
+	margin-right: 10px;
+}
+.popular-blog ul li a{
+	display: block;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #212529;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 1.5;
+	margin-bottom: 0px;
+	transition: .5s linear;
+}
+.popular-blog ul li a:hover{
+	color: #03a87c;
+	text-decoration: underline;
+}
+.popular-blog ul li small{
+	display: block;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #6c757d;
+	font-size: 13px;
+	font-weight: 400;
+}
+/* blog section end */
+
+/* footer section satrt */
+footer{
+	margin-top: 40px;
+}
+.footer-area{
+	border-top: 1px solid #c2c2c2; 
+	padding: 20px 0px;
+	justify-content: space-between;
+}
+.footer-area p{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #6c757d;
+	font-size: 14px;
+	font-weight: 400;
+}
+.footer-area p span{
+	font-family: 'Playfair Display', serif;
+	color: #6c757d;
+	font-size: 20px;
+	font-weight: 700;
+	margin-right: 10px;
+}
+.footer-area p a{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #5F1CC5;
+	font-size: 14px;
+	font-weight: 700;
+	transition: .5s linear;
+}
+.footer-area p a:hover{
+	color: #5F1CC5;
+	text-decoration: underline;
+}
+/* footer section end */
